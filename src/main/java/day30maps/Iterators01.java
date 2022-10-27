@@ -40,7 +40,9 @@ public class Iterators01 {
         Iterator<String> itr1 = list1.iterator();
 
         while (itr1.hasNext()){
+
             String el = itr1.next();
+
             itr1.remove();
         }
 
